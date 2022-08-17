@@ -1,0 +1,95 @@
+#title{
+    text-align: center;
+    font-family: sans-serif;
+    color:#ffffff;
+  }
+  
+  #description{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    color:#ffffff;
+  }
+  
+  .div{
+    padding: 30px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#d544ff;
+    opacity:80%;
+    max-width:40%;
+  }
+  
+  body{
+    background-image: url("https://wallpaperaccess.com/full/869649.jpg");
+    
+  }
+  
+  #name, #email, #number, #dropdown{
+    width: 90%;
+    height: 30px;
+  }
+  
+  input, select{
+    display: block;
+    background-color: #E75480;
+    border: 1px solid white;
+    
+    
+  }
+  
+  .inline{
+    width: unset;
+   float: left;
+   margin: 0 0.5em 0 0;
+   
+  }
+  
+  label{
+    color: white;
+    margin: 5 0.5 0 0;
+    display: block;
+  }
+  
+  #submit{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    margin: 20px auto;
+  }
+  
+  textarea{
+    display: block;
+    background-color: #E75480;
+    max-width: 90%;
+    border: 1px solid white;
+  }
+  
+  option{
+    color: white;
+  }
+  
+  input::placeholder{
+    color: white;
+  }
+  
+  textarea::placeholder{
+    color: white;
+  }
+
+ #select{
+    color: white;
+
+ }
+
+ 
+
+  

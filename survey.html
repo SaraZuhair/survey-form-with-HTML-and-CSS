@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div class="div">
+  
+  <form id="survey-form" action="nextpage.html">
+
+  <label id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required></label>
+
+  <label id="email-label"> Email <input type="email" id="email"  placeholder="Enter your email" required><label>
+
+  <label id="number-label"> Age(optional) <input type="number" id="number" min="10" max="99" placeholder="Age"> </label>
+
+<label>
+  Which option best describes your current role?
+  <select id="dropdown" required>
+    <option>Select current role</option>
+    <option>Student</option>
+    <option>Full Time Job</option>
+    <option>Full Time Learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+  </select> </label>
+
+<label>Would you recommend any teaching website to a friend? <label> Definitely<input type="radio" name="recommend" class="inline" value="Definitely" checked> </label>
+
+<label> Maybe<input type="radio" name="recommend" class="inline" value="Maybe"> </label>
+
+<label for="radio"> Not sure<input type="radio" name="recommend" id="radio" class="inline" value="Not sure"> </label>
+
+</label>
+
+<label>
+  What is your favorite feature of the existing teaching websites?
+
+<select id="dropdown" >
+    <option>Select an option</option>
+    <option>challenges</option>
+    <option>Projects</option>
+    <option>Community</option>
+    <option>Open Source</option>
+  </select> </label>
+
+ <label>What would you like to see improved? (Check all that apply) 
+  <label> <input type="checkbox" value="Front-end Projects" class="inline"> Front-end Projects</label>
+
+  <label> <input type="checkbox" value="Back-end Projects" class="inline"> Back-end Projects</label>
+
+  <label> <input type="checkbox" value="Data Visualization" class="inline"> Data Visualization</label>
+
+  <label> <input type="checkbox" value="Challenges" class="inline"> Challenges</label>
+
+  <label> <input type="checkbox" value="Open Source Community" class="inline"> Open Source Community</label>
+
+  <label> <input type="checkbox" value="Gitter help rooms" class="inline"> Gitter help rooms</label>
+
+  <label> <input type="checkbox" value="Videos" class="inline"> Videos</label>
+
+  <label> <input type="checkbox" value="City Meetups" class="inline" > City Meetups</label>
+  
+  <label for="checkbox"> <input type="checkbox" value="Wiki"  class="inline" id="checkbox"> Wiki</label>
+
+  <label for="checkbox"> <input type="checkbox" value="Forum" class="inline" id="checkbox"> Forum</label>
+
+  <label for="checkbox"> <input type="checkbox" value="Forum" class="inline" id="checkbox"> Additional Courses</label>
+
+
+
+ </label>
+
+
+ <label for="text"> Any comments or suggestions?
+   <textarea placeholder="Enter your comment here..." id="text" rows="4" cols="40"></textarea>
+ </label>
+
+ <input type="submit" id="submit">
+  </form>
+  <div>
+</body>
+</html>
