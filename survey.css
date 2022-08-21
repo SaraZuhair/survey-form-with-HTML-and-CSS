@@ -25,7 +25,8 @@
   
   body{
     background-image: url("https://wallpaperaccess.com/full/869649.jpg");
-    
+    background-repeat: no-repeat;
+    height: fit-content;
   }
   
   #name, #email, #number, #dropdown{
@@ -70,6 +71,7 @@
     display: block;
     background-color: #E75480;
     max-width: 90%;
+    max-height: 150px;
     border: 1px solid white;
   }
   
